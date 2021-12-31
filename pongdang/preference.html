@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>취향 분석</title>
+    <link href="../css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/preference_style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <header id="header">
+            <div class="header_wrap"><p class="header_title">header</p></div>
+        </header>
+
+        <main id="container">
+            <div class="content">
+                <div class="desc">
+                    *비슷한 취향을 가진 사람들과 매칭시켜 주기 위한 간단한 취향을 조사합니다. 파트너를 찾는 검색 필터로도 사용됩니다.<br>
+                    <span class="sp">*해시태그로 자신을 표현해 보세요! 다른 사람들이 검색으로 '나'를 찾을 수 있어요.</span>
+                </div>
+                <hr>
+
+                <!--운동 div-->
+                <div class="sports">
+                    <p class="menu_title">운동<br><span class="sp">*최대 5개까지</span></p>
+                    <div class="option_sports">
+                        <button type="button" class="btn_sports btn">축구/풋살</button>
+                        <button type="button" class="btn_sports btn">농구</button>
+                        <button type="button" class="btn_sports btn">야구</button>
+                        <button type="button" class="btn_sports btn">골프</button>
+                        <button type="button" class="btn_sports btn">배드민턴/테니스/스쿼시</button>
+                        <button type="button" class="btn_sports btn">탁구</button><br>
+                        <button type="button" class="btn_sports btn">조깅/러닝</button>
+                        <button type="button" class="btn_sports btn">등산/트래킹</button>
+                        <button type="button" class="btn_sports btn">자전거/라이딩</button>
+                        <button type="button" class="btn_sports btn">스키/스노우보드</button>
+                        <button type="button" class="btn_sports btn">승마</button><br>
+                        <button type="button" class="btn_sports btn">헬스</button>
+                        <button type="button" class="btn_sports btn">크로스핏</button>
+                        <button type="button" class="btn_sports btn">요가</button>
+                        <button type="button" class="btn_sports btn">필라테스</button>
+                        <button type="button" class="btn_sports btn">홈트레이닝</button><br>
+                        <button type="button" class="btn_sports btn">클라이밍</button>
+                        <button type="button" class="btn_sports btn">스케이트/인라인</button>
+                        <button type="button" class="btn_sports btn">크루져보드/롱보드</button><br>
+                        <button type="button" class="btn_sports btn">태권도</button>
+                        <button type="button" class="btn_sports btn">유도</button>
+                        <button type="button" class="btn_sports btn">복싱</button>
+                        <button type="button" class="btn_sports btn">무술/주짓수</button>
+                        <button type="button" class="btn_sports btn">검도</button>
+                        <button type="button" class="btn_sports btn">펜싱</button><br>
+                        <button type="button" class="btn_sports btn">수영</button>
+                        <button type="button" class="btn_sports btn">서핑/웨이크보드</button>
+                        <button type="button" class="btn_sports btn">낚시</button>
+                        <button type="button" class="btn_sports btn">스쿠버다이빙</button>
+                        <button type="button" class="btn_sports btn">스노쿨링</button>
+                        <button type="button" class="btn_sports btn">기타</button><br>
+                    </div>
+                </div>
+                <hr>
+
+                <!--친목 div-->
+                <div class="fr">
+                    <p class="menu_title">친목</p>
+                    <div class="option_fr">
+                        <button type="button" class="btn_fr btn">친목도좋아요</button>
+                        <button type="button" class="btn_fr btn">운동만할래요</button>
+                        <button type="button" class="btn_fr btn">서로알려줘요</button>
+                    </div>
+                </div>
+                <hr>
+
+                <!--목표 div-->
+                <div class="goal">
+                    <p class="menu_title">목표<br><span class="sp">*최대 3개까지</span></p>
+                    <div class="option_goal">
+                        <button type="button" class="btn_goal btn">동기부여</button>
+                        <button type="button" class="btn_goal btn">다이어트</button>
+                        <button type="button" class="btn_goal btn">자세교정</button>
+                        <button type="button" class="btn_goal btn">건강이최고</button>
+                        <button type="button" class="btn_goal btn">프로틴친목</button>
+                        <button type="button" class="btn_goal btn">재능기부</button>
+                    </div>
+                </div>
+                <hr>
+
+                <!--온오프라인 div-->
+                <div class="way">
+                    <p class="menu_title">온∙오프라인</p>
+                    <div class="option_way">
+                        <button type="button" class="btn_way btn">모두</button>
+                        <button type="button" class="btn_way btn">온라인만</button>
+                        <button type="button" class="btn_way btn">오프라인만</button>
+                    </div>
+                </div>
+                <hr>
+
+                <!--대표 해시태그 div-->
+                <div class="hashtag">
+                    <p class="menu_title">#대표 해시태그<br><span class="sp">*최대 3개까지</span></p>
+                    <span id="htDesc">*나를 대표하는 해시태그를 선택하세요! 대표 해시태그는 프로필에 보여집니다.</span>
+                    <!--<input readonly placeholder="아래 해시태그를 클릭하여 대표 해시태그를 선정하세요." class="take_ht">-->
+                    <div class="take_ht">아래 해시태그를 클릭하여 대표 해시태그를 선정하세요.</div>
+                    <div class="option_hashtag"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="footer_wrap"><p class="header_title">footer</p></div>
+        </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/preference_script.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
